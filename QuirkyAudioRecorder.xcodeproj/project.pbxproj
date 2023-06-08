@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BEE39682A31C97A00D7C42D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE39672A31C97A00D7C42D /* AppDelegate.swift */; };
+		1BEE396A2A31C97A00D7C42D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE39692A31C97A00D7C42D /* SceneDelegate.swift */; };
+		1BEE396C2A31C97A00D7C42D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE396B2A31C97A00D7C42D /* ViewController.swift */; };
+		1BEE396F2A31C97A00D7C42D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE396D2A31C97A00D7C42D /* Main.storyboard */; };
+		1BEE39712A31C97B00D7C42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE39702A31C97B00D7C42D /* Assets.xcassets */; };
+		1BEE39742A31C97B00D7C42D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE39722A31C97B00D7C42D /* LaunchScreen.storyboard */; };
+		1BEE397F2A31C97B00D7C42D /* QuirkyAudioRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE397E2A31C97B00D7C42D /* QuirkyAudioRecorderTests.swift */; };
+		1BEE39892A31C97B00D7C42D /* QuirkyAudioRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE39882A31C97B00D7C42D /* QuirkyAudioRecorderUITests.swift */; };
+		1BEE398B2A31C97B00D7C42D /* QuirkyAudioRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE398A2A31C97B00D7C42D /* QuirkyAudioRecorderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BEE397B2A31C97B00D7C42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEE395C2A31C97A00D7C42D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEE39632A31C97A00D7C42D;
+			remoteInfo = QuirkyAudioRecorder;
+		};
+		1BEE39852A31C97B00D7C42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BEE395C2A31C97A00D7C42D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEE39632A31C97A00D7C42D;
+			remoteInfo = QuirkyAudioRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BEE39642A31C97A00D7C42D /* QuirkyAudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuirkyAudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEE39672A31C97A00D7C42D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BEE39692A31C97A00D7C42D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BEE396B2A31C97A00D7C42D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BEE396E2A31C97A00D7C42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BEE39702A31C97B00D7C42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BEE39732A31C97B00D7C42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BEE39752A31C97B00D7C42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEE397A2A31C97B00D7C42D /* QuirkyAudioRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuirkyAudioRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEE397E2A31C97B00D7C42D /* QuirkyAudioRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuirkyAudioRecorderTests.swift; sourceTree = "<group>"; };
+		1BEE39842A31C97B00D7C42D /* QuirkyAudioRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuirkyAudioRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEE39882A31C97B00D7C42D /* QuirkyAudioRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuirkyAudioRecorderUITests.swift; sourceTree = "<group>"; };
+		1BEE398A2A31C97B00D7C42D /* QuirkyAudioRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuirkyAudioRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BEE39612A31C97A00D7C42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE39772A31C97B00D7C42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE39812A31C97B00D7C42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BEE395B2A31C97A00D7C42D = {
+			isa = PBXGroup;
+			children = (
+				1BEE39662A31C97A00D7C42D /* QuirkyAudioRecorder */,
+				1BEE397D2A31C97B00D7C42D /* QuirkyAudioRecorderTests */,
+				1BEE39872A31C97B00D7C42D /* QuirkyAudioRecorderUITests */,
+				1BEE39652A31C97A00D7C42D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BEE39652A31C97A00D7C42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE39642A31C97A00D7C42D /* QuirkyAudioRecorder.app */,
+				1BEE397A2A31C97B00D7C42D /* QuirkyAudioRecorderTests.xctest */,
+				1BEE39842A31C97B00D7C42D /* QuirkyAudioRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEE39662A31C97A00D7C42D /* QuirkyAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE39672A31C97A00D7C42D /* AppDelegate.swift */,
+				1BEE39692A31C97A00D7C42D /* SceneDelegate.swift */,
+				1BEE396B2A31C97A00D7C42D /* ViewController.swift */,
+				1BEE396D2A31C97A00D7C42D /* Main.storyboard */,
+				1BEE39702A31C97B00D7C42D /* Assets.xcassets */,
+				1BEE39722A31C97B00D7C42D /* LaunchScreen.storyboard */,
+				1BEE39752A31C97B00D7C42D /* Info.plist */,
+			);
+			path = QuirkyAudioRecorder;
+			sourceTree = "<group>";
+		};
+		1BEE397D2A31C97B00D7C42D /* QuirkyAudioRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE397E2A31C97B00D7C42D /* QuirkyAudioRecorderTests.swift */,
+			);
+			path = QuirkyAudioRecorderTests;
+			sourceTree = "<group>";
+		};
+		1BEE39872A31C97B00D7C42D /* QuirkyAudioRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BEE39882A31C97B00D7C42D /* QuirkyAudioRecorderUITests.swift */,
+				1BEE398A2A31C97B00D7C42D /* QuirkyAudioRecorderUITestsLaunchTests.swift */,
+			);
+			path = QuirkyAudioRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BEE39632A31C97A00D7C42D /* QuirkyAudioRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEE398E2A31C97B00D7C42D /* Build configuration list for PBXNativeTarget "QuirkyAudioRecorder" */;
+			buildPhases = (
+				1BEE39602A31C97A00D7C42D /* Sources */,
+				1BEE39612A31C97A00D7C42D /* Frameworks */,
+				1BEE39622A31C97A00D7C42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuirkyAudioRecorder;
+			productName = QuirkyAudioRecorder;
+			productReference = 1BEE39642A31C97A00D7C42D /* QuirkyAudioRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BEE39792A31C97B00D7C42D /* QuirkyAudioRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEE39912A31C97B00D7C42D /* Build configuration list for PBXNativeTarget "QuirkyAudioRecorderTests" */;
+			buildPhases = (
+				1BEE39762A31C97B00D7C42D /* Sources */,
+				1BEE39772A31C97B00D7C42D /* Frameworks */,
+				1BEE39782A31C97B00D7C42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEE397C2A31C97B00D7C42D /* PBXTargetDependency */,
+			);
+			name = QuirkyAudioRecorderTests;
+			productName = QuirkyAudioRecorderTests;
+			productReference = 1BEE397A2A31C97B00D7C42D /* QuirkyAudioRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BEE39832A31C97B00D7C42D /* QuirkyAudioRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEE39942A31C97B00D7C42D /* Build configuration list for PBXNativeTarget "QuirkyAudioRecorderUITests" */;
+			buildPhases = (
+				1BEE39802A31C97B00D7C42D /* Sources */,
+				1BEE39812A31C97B00D7C42D /* Frameworks */,
+				1BEE39822A31C97B00D7C42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEE39862A31C97B00D7C42D /* PBXTargetDependency */,
+			);
+			name = QuirkyAudioRecorderUITests;
+			productName = QuirkyAudioRecorderUITests;
+			productReference = 1BEE39842A31C97B00D7C42D /* QuirkyAudioRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BEE395C2A31C97A00D7C42D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1BEE39632A31C97A00D7C42D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1BEE39792A31C97B00D7C42D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1BEE39632A31C97A00D7C42D;
+					};
+					1BEE39832A31C97B00D7C42D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1BEE39632A31C97A00D7C42D;
+					};
+				};
+			};
+			buildConfigurationList = 1BEE395F2A31C97A00D7C42D /* Build configuration list for PBXProject "QuirkyAudioRecorder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BEE395B2A31C97A00D7C42D;
+			productRefGroup = 1BEE39652A31C97A00D7C42D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BEE39632A31C97A00D7C42D /* QuirkyAudioRecorder */,
+				1BEE39792A31C97B00D7C42D /* QuirkyAudioRecorderTests */,
+				1BEE39832A31C97B00D7C42D /* QuirkyAudioRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BEE39622A31C97A00D7C42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE39742A31C97B00D7C42D /* LaunchScreen.storyboard in Resources */,
+				1BEE39712A31C97B00D7C42D /* Assets.xcassets in Resources */,
+				1BEE396F2A31C97A00D7C42D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE39782A31C97B00D7C42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE39822A31C97B00D7C42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BEE39602A31C97A00D7C42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE396C2A31C97A00D7C42D /* ViewController.swift in Sources */,
+				1BEE39682A31C97A00D7C42D /* AppDelegate.swift in Sources */,
+				1BEE396A2A31C97A00D7C42D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE39762A31C97B00D7C42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE397F2A31C97B00D7C42D /* QuirkyAudioRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEE39802A31C97B00D7C42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE398B2A31C97B00D7C42D /* QuirkyAudioRecorderUITestsLaunchTests.swift in Sources */,
+				1BEE39892A31C97B00D7C42D /* QuirkyAudioRecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BEE397C2A31C97B00D7C42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BEE39632A31C97A00D7C42D /* QuirkyAudioRecorder */;
+			targetProxy = 1BEE397B2A31C97B00D7C42D /* PBXContainerItemProxy */;
+		};
+		1BEE39862A31C97B00D7C42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BEE39632A31C97A00D7C42D /* QuirkyAudioRecorder */;
+			targetProxy = 1BEE39852A31C97B00D7C42D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BEE396D2A31C97A00D7C42D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEE396E2A31C97A00D7C42D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BEE39722A31C97B00D7C42D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEE39732A31C97B00D7C42D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BEE398C2A31C97B00D7C42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BEE398D2A31C97B00D7C42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BEE398F2A31C97B00D7C42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 927YGY67XQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuirkyAudioRecorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Murmeko.QuirkyAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BEE39902A31C97B00D7C42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 927YGY67XQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuirkyAudioRecorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Murmeko.QuirkyAudioRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BEE39922A31C97B00D7C42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 927YGY67XQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Murmeko.QuirkyAudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuirkyAudioRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuirkyAudioRecorder";
+			};
+			name = Debug;
+		};
+		1BEE39932A31C97B00D7C42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 927YGY67XQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Murmeko.QuirkyAudioRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuirkyAudioRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuirkyAudioRecorder";
+			};
+			name = Release;
+		};
+		1BEE39952A31C97B00D7C42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 927YGY67XQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Murmeko.QuirkyAudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuirkyAudioRecorder;
+			};
+			name = Debug;
+		};
+		1BEE39962A31C97B00D7C42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 927YGY67XQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Murmeko.QuirkyAudioRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuirkyAudioRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BEE395F2A31C97A00D7C42D /* Build configuration list for PBXProject "QuirkyAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE398C2A31C97B00D7C42D /* Debug */,
+				1BEE398D2A31C97B00D7C42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEE398E2A31C97B00D7C42D /* Build configuration list for PBXNativeTarget "QuirkyAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE398F2A31C97B00D7C42D /* Debug */,
+				1BEE39902A31C97B00D7C42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEE39912A31C97B00D7C42D /* Build configuration list for PBXNativeTarget "QuirkyAudioRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE39922A31C97B00D7C42D /* Debug */,
+				1BEE39932A31C97B00D7C42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEE39942A31C97B00D7C42D /* Build configuration list for PBXNativeTarget "QuirkyAudioRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEE39952A31C97B00D7C42D /* Debug */,
+				1BEE39962A31C97B00D7C42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BEE395C2A31C97A00D7C42D /* Project object */;
+}
