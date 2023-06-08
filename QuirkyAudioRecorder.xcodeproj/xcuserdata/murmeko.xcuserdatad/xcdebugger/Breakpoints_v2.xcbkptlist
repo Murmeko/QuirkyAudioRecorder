@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9E579CBD-1D95-4216-A7BC-4A32CD9604AB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46C6E3FF-133D-40D1-9CAB-7073B072B28F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StereoAudioCapture/Audio/AudioController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "selectRecordingOption(_:orientation:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46C6E3FF-133D-40D1-9CAB-7073B072B28F - 567e5cb446d877d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StereoAudioCapture.AudioController.selectRecordingOption(_: StereoAudioCapture.RecordingOption, orientation: StereoAudioCapture.Orientation, completion: (StereoAudioCapture.StereoLayout) -&gt; ()) -&gt; ()"
+                  moduleName = "StereoAudioCapture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murmeko/Downloads/CapturingStereoAudioFromBuiltInMicrophones/StereoAudioCapture/Audio/AudioController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "46C6E3FF-133D-40D1-9CAB-7073B072B28F - 567e5cb446d877d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StereoAudioCapture.AudioController.selectRecordingOption(_: StereoAudioCapture.RecordingOption, orientation: StereoAudioCapture.Orientation, completion: (StereoAudioCapture.StereoLayout) -&gt; ()) -&gt; ()"
+                  moduleName = "StereoAudioCapture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murmeko/Downloads/CapturingStereoAudioFromBuiltInMicrophones/StereoAudioCapture/Audio/AudioController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "46C6E3FF-133D-40D1-9CAB-7073B072B28F - 567e5cb446d877d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StereoAudioCapture.AudioController.selectRecordingOption(_: StereoAudioCapture.RecordingOption, orientation: StereoAudioCapture.Orientation, completion: (StereoAudioCapture.StereoLayout) -&gt; ()) -&gt; ()"
+                  moduleName = "StereoAudioCapture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murmeko/Downloads/CapturingStereoAudioFromBuiltInMicrophones/StereoAudioCapture/Audio/AudioController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "46C6E3FF-133D-40D1-9CAB-7073B072B28F - 567e5cb446d877d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StereoAudioCapture.AudioController.selectRecordingOption(_: StereoAudioCapture.RecordingOption, orientation: StereoAudioCapture.Orientation, completion: (StereoAudioCapture.StereoLayout) -&gt; ()) -&gt; ()"
+                  moduleName = "StereoAudioCapture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murmeko/Downloads/CapturingStereoAudioFromBuiltInMicrophones/StereoAudioCapture/Audio/AudioController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
